@@ -1,0 +1,55 @@
+export type BatchStatus =
+  'draft' | 'pending_review' | 'scheduled' | 'on_sale' | 'paused' | 'sold_out' | 'archived'
+
+export type PhysicalCardStatus =
+  | 'pending_inspection'
+  | 'available'
+  | 'batch_reserved'
+  | 'allocated'
+  | 'shipping_locked'
+  | 'picking'
+  | 'shipped'
+  | 'return_inspection'
+  | 'damaged'
+  | 'voided'
+
+export type RechargeStatus =
+  | 'pending_payment'
+  | 'processing'
+  | 'succeeded'
+  | 'failed'
+  | 'cancelled'
+  | 'closed'
+  | 'refund_pending'
+  | 'refunded'
+  | 'chargeback'
+  | 'manual_review'
+
+export type UserAssetStatus =
+  | 'stored'
+  | 'recycle_locked'
+  | 'recycled'
+  | 'shipping_locked'
+  | 'awaiting_allocation'
+  | 'allocated'
+  | 'shipped'
+  | 'support_frozen'
+
+export type ShipmentStatus =
+  | 'submitted_locked'
+  | 'pending_review'
+  | 'pending_template_allocation'
+  | 'pending_pick'
+  | 'picking'
+  | 'packed'
+  | 'shipped'
+  | 'in_transit'
+  | 'delivered'
+  | 'restock_wait'
+  | 'address_exception'
+  | 'customs_exception'
+  | 'logistics_exception'
+  | 'returned'
+  | 'support_cancelled'
+
+export type TicketStatus = 'new' | 'processing' | 'waiting_user' | 'resolved' | 'closed'

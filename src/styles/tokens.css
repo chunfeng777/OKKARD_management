@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  color: #17211f;
+  background: #f4f7f6;
+  font-synthesis: none;
+  --admin-navy: #0b2e35;
+  --admin-navy-soft: #123f46;
+  --admin-green: #0f6f67;
+  --admin-gold: #e9b914;
+  --admin-gold-dark: #a87500;
+  --surface: #ffffff;
+  --surface-subtle: #f7faf9;
+  --text: #17211f;
+  --muted: #63716e;
+  --border: #dbe4e1;
+  --success: #17845e;
+  --success-soft: #e9f7f1;
+  --info: #3178c6;
+  --info-soft: #edf5ff;
+  --warning: #bd7200;
+  --warning-soft: #fff5df;
+  --danger: #c33d35;
+  --danger-soft: #fff0ef;
+  --disabled: #7c8784;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --shadow: 0 8px 28px rgba(18, 48, 47, 0.07);
+  --sidebar-width: 248px;
+  --topbar-height: 68px;
+}
