@@ -314,7 +314,7 @@ export const routes: RouteRecordRaw[] = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/admin/'),
+  history: createWebHistory('/'),
   routes,
   scrollBehavior: (_to, _from, savedPosition) => savedPosition ?? { top: 0 },
 })
